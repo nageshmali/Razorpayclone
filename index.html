@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- NAVBAR -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
@@ -59,19 +60,42 @@
             </ul>
 
             <!-- Right side -->
-            <div class="flex space-x-4">
+            <div class="flex space-x-3">
                 <img src="./assets/india-flag.svg" alt="" width="28px" height="20px">
 
                 <button class="py-3 px-5 font-mulish text-white border border-lightBlue rounded-sm font-bold text-sm">Log in</button>
 
-                <button class="py-3 px-4 font-mulish rounded-sm text-sm font-bold bg-white text-lightBlue300 border hover:text-lightBlue500 transition-all duration-200">Sign Up <i class='fas fa-arrow-right ml-1' style="font-size: 11px;"></i></button>
+                <button class="py-3 px-4 min-w-[32px] font-mulish rounded-sm text-sm font-bold bg-white text-lightBlue300 border hover:text-lightBlue500 transition-all duration-200">Sign Up <i class='fas fa-arrow-right ml-2' style="font-size: 11px;"></i></button>
             </div>
         </div>
     </nav>
 
 
     <!-- HERO SECTION -->
-    
+    <section class="relative bg-deepBlue">
 
+        <!-- centre-block -->
+        <div class="w-10/12 max-w-[1080px] flex justify-between items-center mx-auto">
+            <!-- left-part -->
+            <div class="space-y-8">
+                <h1 class="font-mulish font-extrabold text-white text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mulish text-[18px] text-white opacity-70 leading-7">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+                <button class="font-mulish font-bold bg-lightBlue text-white rounded-md transition-all duration-200 py-[14px] px-[18px] hover:bg-lightBlue500">Sign Up Now</button>
+            </div>
+            <!-- right-part -->
+            <img src="./assets/hero-illustration.jpg" alt="" class="max-w-[680px]">
+        </div>
+
+        <!-- Shape part -->
+        <div class="absolute left-0 right-0 w-full">
+            <img src="assets/HERO_SHAPE.png" alt="" class="w-full">
+        </div>
+
+        
+    </section>
+
+
+    
 </body>
 </html>
